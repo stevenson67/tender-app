@@ -1,24 +1,39 @@
-# tender-app
+# Tender App
 
-## Project setup
+## Описание
+
+Это приложение для просмотра списка тендеров, с возможностью поиска и просмотра детальной информации по каждому тендеру. Также реализована пагинация и анимация переходов между страницами.
+
+## Требования
+
+- **Node.js**: версия 18.20.3
+- **Yarn**: версия 1.22.22
+
+Убедитесь, что на вашем компьютере установлена корректная версия Node.js и Yarn. Для проверки версий используйте следующие команды:
+
+```bash
+node -v
+yarn -v
+```
+Если Node.js не установлен, скачайте и установите его с официального сайта Node.js. Yarn можно установить глобально с помощью npm:
+
+npm install -g yarn
+
+# Установка
+
+## Установка зависимостей
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## Запуск приложения
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+## Сборка приложения
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
